@@ -64,7 +64,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-# trabLBD
+# ToDo List
 Essa aplicação trata-se de um sistema simples de criação e compartilhamento de listas de tarefas, onde é possível:
 - Criar, editar, excluir usuários bem como visualizar suas próprias informações;
 - Criar, editar, excluir e visualizar listas de tarefas;
