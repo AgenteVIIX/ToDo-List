@@ -63,3 +63,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# trabLBD
+Essa aplicação trata-se de um sistema simples de criação e compartilhamento de listas de tarefas, onde é possível:
+- Criar, editar, excluir usuários bem como visualizar suas próprias informações;
+- Criar, editar, excluir e visualizar listas de tarefas;
+- Criar uma lista de tarefas pública, onde todos os usuários cadastrados no sistema possam ter acess à mesma;
+- Criar e excluir tarefas.
+
+Para o desenvolvimento dessa aplicação foram utilizadas as seguintes tecnologias:
+- PHP
+- HTML, CSS
+- JavaScript
+- Framework Laravel
+- MySQL
+
+Para que o programa possa ser executado com sucesso é necessário baixar o código da
+pasta ZIP enviada, a qual pode ser extraída e usada em qualquer IDE de programação para ser
+usada, para acessar o projeto deve-se: abrir o Prompt de Comando, abrir a pasta trabLBD,
+criada após o clone do repositório, deve-se criar, também, um banco de dados no
+PhpMyAdmin (acessado com o uso do XAMPP e aberto as portas do Apache e do MySql, e
+acessado no navegador pelo link: http://localhost:8080/phpmyadmin) com o nome
+“projeto_db” através do usuário root, voltar a linha de comando e rodar os seguintes
+comandos:
+- composer update
+- php artisan migrate:fresh
+- php artisan serve
+
+Além disso, para o funcionamento correto também será necessário ter o Node.js
+instalado em seu computador, em sua versão mais atualizada.
