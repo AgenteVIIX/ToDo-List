@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap');
+* {
+    margin: 0;
+    font-family: 'Yaldevi', sans-serif;
+  }
+html,body{
+    font-family: verdana;
+    height:100vh;
+    width:100vw;
+}
+
+footer{
+  display:flex;
+  height: 25%;  
+  border: 1px solid white;
+  background-color:white;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size:1.5em;
+  padding:0 90px;
+}
+footer > .menu-icon{
+    font-size: 2em;
+}
+
+footer > .middle-content {
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer > div  > .config-icon{
+    color: black;
+    padding:0 5px;
+    font-size:80px;
+  }
+
+  footer > div  > .add-icon{
+    color: white;
+    background-color:dodgerblue;
+    border-radius: 999px;
+    font-size:80px;
+  }
+footer > .middle-content > input {
+    height: 42px;
+    border: 1px solid;
+    flex-grow: 1;
+    font-size: 0.8em;
+  }
+
+  footer > .middle-content > button > .search-icon{
+    font-size:38px;
+  }
+ footer > .left-content {
+    flex-direction: column;
+    justify-content: center;
+ }
+ footer > .right-content {
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ /*.lista-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}*/
+.lista-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.lista-flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    height: 175px;
+    border:solid 1px;
+}
+.deslogar {
+    color: black;
+    padding:0 5px;
+    font-size:80px;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 75px;
+    height: 25%;
+    border: solid 1px white;
+}
